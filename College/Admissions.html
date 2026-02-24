@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTech College</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        /* Admissions Info Boxes */
+        .admissions-boxes {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin: 50px 0;
+            justify-content: center;
+        }
+
+        .admission-box {
+            background: white;
+            flex: 1 1 280px;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .admission-box h3 {
+            margin-bottom: 15px;
+            color: #0a3d62;
+        }
+
+        .admission-box p {
+            color: #555;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .admission-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+    <div class="container">
+        <h2>SmartTech College</h2>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Academics.html">Courses</a></li>
+            <li><a href="Admissions.html">Admissions</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+              <li><a href=Reg.html> Regestration </a></li>
+        </ul>
+    </div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="hero">
+    <h2>Admissions 2026</h2>
+    <p>Start your journey with SmartTech College and achieve your goals</p>
+    <a href="Academics.html" class="btn">Apply Now</a>
+</section>
+
+<!-- Admissions Info Boxes -->
+<section class="features">
+    <div class="container">
+        <h2>Admission Process</h2>
+        <div class="admissions-boxes">
+
+            <div class="admission-box">
+                <h3>Step 1: Eligibility</h3>
+                <p>Check the requirements for your chosen program and make sure you meet the criteria.</p>
+               
+            </div>
+
+            <div class="admission-box">
+                <h3>Step 2: Application</h3>
+                <p>Fill out the online application form with your personal and academic details.</p>
+                
+            </div>
+
+            <div class="admission-box">
+                <h3>Step 3: Admission Test</h3>
+                <p>Appear for the entrance test (if applicable) or submit your previous academic results.</p>
+              
+            </div>
+
+            <div class="admission-box">
+                <h3>Step 4: Confirmation</h3>
+                <p>Receive admission confirmation and pay the enrollment fees to secure your seat.</p>
+               
+            </div>
+
+        </div>
+
+        <!-- Call to Action -->
+        <div style="text-align: center; margin-top: 50px;">
+            <a id="apply" href="Reg.html" class="btn" style="padding: 15px 30px; font-size: 16px;">Apply for Admission</a>
+        </div>
+
+    </div>
+</section>
+</main>
+    <footer>
+          <p> &copy; 2026 SmartTech College | All rights Reserved</p>
+    </footer>
+    <script src-="Script.js"></script>
+</body>
+</html>

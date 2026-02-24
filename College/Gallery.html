@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTech College</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+    /* Gallery Grid */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 50px 0;
+        }
+
+        .gallery-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+    <div class="container">
+        <h2>SmartTech College</h2>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Academics.html">Courses</a></li>
+            <li><a href="Admissions.html">Admissions</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href=Reg.html> Regestration </a></li>
+        </ul>
+    </div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="hero">
+    <h2>Gallery</h2>
+    <p>Take a glimpse of life at SmartTech College</p>
+</section>
+
+<!-- Gallery Section -->
+<section class="features">
+    <div class="container">
+        <h2>Campus </h2>
+        <div class="gallery-container">
+
+            <div class="gallery-item">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.w8631Z80B0axPoIyjjLY0QHaFj?pid=Api&h=220&P=0" alt="College">
+            </div>
+            <div class="gallery-item">
+                <img src="https://watermark.lovepik.com/photo/20211130/large/lovepik-university-classroom-picture_501260065.jpg" alt="classrooms">
+            </div>
+            <div class="gallery-item">
+                <img src="https://princh.com/wp-content/uploads/2022/11/Sutton-Libraries-Inside.png" alt="Library">
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.tajglobalacademy.com/Uploads/fileupload/33ICT-Lab.jpg" alt="Labs">
+
+        </div>
+    </div>
+</section>
+</main>
+
+    <footer>
+          <p> &copy; 2026 SmartTech College | All rights Reserved</p>
+
+    </footer>
+    <script src-="Script.js"></script>
+</body>
+</html>
